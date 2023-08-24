@@ -70,7 +70,7 @@ const About = () => {
         up-to-date with trends to exceed expectations. Let's work together on
         your next project.
       </motion.p>
-      <div className="mt-20 lg:flex-row flex flex-col  gap-8 justify-center">
+      <div className="mt-20 sm:flex-row max-sm:items-center flex flex-col  gap-8 justify-center ">
         <ServiceCard title={"Languages"} itemCards={languages} />
         <ServiceCard title={"Frontend"} itemCards={frotnend} />
         <ServiceCard title={"Backend"} itemCards={backends} />

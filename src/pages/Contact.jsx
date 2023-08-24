@@ -53,7 +53,7 @@ function Contact() {
       );
   };
   return (
-    <div className="relative z-0 h-screen flex justify-center items-center">
+    <div className="relative z-0 h-screen flex justify-center items-center max-[350px]:mt-20 lg:mt-20">
       <div className="xl:flex-row flex-col-reverse flex gap-10 overflow-hidden w-full">
         <motion.div
           variants={slideIn("left", "tween", 0.2, 1)}
@@ -118,7 +118,7 @@ function Contact() {
         </motion.div>
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto xl:mt-8 md:h-[420px] h-[320px] mx-auto w-[240px] mt-60 md:mt-0"
+          className="xl:flex-1 xl:h-auto xl:mt-8 max-sm:h-[220px] h-[220px] max-[500px]:hidden mx-auto w-[240px] mt-60 md:mt-0"
         >
           {/* <EarthCanvas /> */}
           <Lottie animationData={mail} loop={true} />
