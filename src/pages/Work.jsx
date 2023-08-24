@@ -97,7 +97,7 @@ const Works = () => {
   return (
     <>
       <Experience />
-      <div className="sm:px-12 px-12 sm:py-16 py-10 bg-[#1c1f2e]">
+      <div className="max-sm:px-12 px-32 max-sm:py-16 py-16 bg-[#1c1f2e]">
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} `}>My work</p>
           <h2 className={`${styles.sectionHeadText}`}>💻 Projects.</h2>
@@ -119,7 +119,7 @@ const Works = () => {
         <div className="mt-20 flex flex-wrap gap-5 justify-between ">
           {projects.map((project, index) => {
             return (
-              <div className="w-full flex" key={`project-${index}`}>
+              <div className="xl:w-[49%] w-full flex" key={`project-${index}`}>
                 <ProjectCard {...project} index={index} />
               </div>
             );
