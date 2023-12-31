@@ -50,6 +50,10 @@ import {
   furniture,
   rapidsurvey,
   ITEES,
+  Hrog,
+  EazyMock,
+  eazyrest,
+  ladle
 } from '../assets'
 
 export const navLinks = [
@@ -139,10 +143,21 @@ const technologies = [
 const experiences = [
   {
     title: 'Web Developer',
+    company_name: 'Teqnological Asisa',
+    icon: codedrops,
+    iconBg: '#383E56',
+    date: 'October 2023 - Current',
+    points: [
+      'I am a developer at Front end position. I trained for 2 months',
+      'In December 2023, I joined the NowCast HrogWageNow project (Japanese human resources project), this is my first project at Teq Company',
+    ],
+  },
+  {
+    title: 'Web Developer',
     company_name: 'Freelance',
     icon: codedrops,
     iconBg: '#383E56',
-    date: 'Jan 2023 - Current',
+    date: 'Jan 2023 - October 2023',
     points: [
       'I used to graduated from University of Technology and Education HCM.',
       'I am finding a job and a freelancer.',
@@ -271,6 +286,10 @@ const frotnend = [
     title: 'MUI',
     logo: mui,
   },
+  {
+    title: 'LADLE',
+    logo: ladle,
+  },
 ]
 
 const backends = [
@@ -316,6 +335,14 @@ const toolservice = [
   {
     title: 'HEROKU',
     logo: heroku,
+  },
+  {
+    title: 'Eazy Mock',
+    logo: EazyMock,
+  },
+  {
+    title: 'Eazy Rest',
+    logo: eazyrest,
   },
 ]
 const projects = [
@@ -448,6 +475,30 @@ const projects = [
       },
     ],
     image: ITEES,
+    openSource: false,
+    source_code_link: 'https://resturant-sahil.vercel.app/',
+  },
+  {
+    name: 'NowCast HrogWageNow',
+    description:
+      'Hrog is a Japanese company providing HR services. They have a service that helps customers look up data about employee salaries in different industries, helping to see what job boards are offering to people who are changing jobs within the salary range.',
+    responsibility:
+      'Build landing page, Recommend System Page, Privacy Policy Page, Inquiry Page, Release Schedule Page, Handle Logic for Pagination for page',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwindcss',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'ladle',
+        color: 'orange-text-gradient',
+      },
+    ],
+    image: Hrog,
     openSource: false,
     source_code_link: 'https://resturant-sahil.vercel.app/',
   },

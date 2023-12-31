@@ -26,7 +26,7 @@ const ServiceCard = ({ index, title, itemCards }) => {
   const tiltRef = useRef(null); // Create a ref for Tilt component
 
   return (
-    <Tilt ref={tiltRef} className="w-[260px]">
+    <Tilt ref={tiltRef} className="w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
@@ -70,7 +70,7 @@ const About = () => {
         up-to-date with trends to exceed expectations. Let's work together on
         your next project.
       </motion.p>
-      <div className="mt-20 sm:flex-row max-sm:items-center flex flex-col  gap-8 justify-center ">
+      <div className="mt-20 grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-4">
         <ServiceCard title={"Languages"} itemCards={languages} />
         <ServiceCard title={"Frontend"} itemCards={frotnend} />
         <ServiceCard title={"Backend"} itemCards={backends} />

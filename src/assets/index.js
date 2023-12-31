@@ -63,6 +63,12 @@ import accomadation from './accomadation.png'
 import furniture from './furniture.png'
 import rapidsurvey from './rapidsurvey.png'
 import ITEES from './ITEES.png'
+import Hrog from './Hrog.png'
+import EazyMock from './IconEzMock.webp'
+import eazyrest from './eazyrest.png'
+import ladle from './ladle.svg'
+
+
 
 export {
   logo,
@@ -126,4 +132,8 @@ export {
   furniture,
   rapidsurvey,
   ITEES,
+  Hrog,
+  EazyMock,
+  eazyrest,
+  ladle,
 }

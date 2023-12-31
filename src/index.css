@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.container {
+	@apply my-0 mx-auto sm:max-w-none md:max-w-none lg:max-w-[1024px];
+}
+
 * {
 	margin: 0;
 	padding: 0;

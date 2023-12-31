@@ -18,7 +18,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
         <div>
-          <div className="flex items-center ">
+          <div className="flex items-center">
             <Lottie animationData={hi} loop={true} className="w-32 h-32" />
             <h1 className={`${styles.heroHeadText}text-white`}>
               Hi, I'm{" "}
@@ -28,14 +28,16 @@ const Hero = () => {
             </h1>
           </div>
           <p className={`${styles.heroSubText} mt-2 text-white-100 glitch`}>
-            I am a guy with a creative mind and like design. I would like to
+           🌱 👨🏻‍💻 🌈 I am a guy with a creative mind and like design. I would like to
             learn and discover something new every day. Currently work as a Web
             developer.
           </p>
         </div>
       </div>
+      <div className="container">
       <div className="flex justify-center absolute inset-0 h-full w-full bottom-0 mt-[217px]">
         <Lottie animationData={codingCoffee} loop={true} />
+      </div>
       </div>
       <div className="absolute sm:bottom-10 bottom-[80px] w-full flex justify-center sm:hidden items-center">
         <a
